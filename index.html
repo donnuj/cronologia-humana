@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cronologia da História Humana</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header fixo -->
+  <header id="site-header">
+    <div class="header-logo">
+      <span class="logo-main">Cronologia</span>
+      <span class="logo-sub">da História Humana</span>
+    </div>
+    <div class="header-center">
+      <div class="search-wrap">
+        <svg class="search-icon" viewBox="0 0 20 20" fill="none">
+          <circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M13 13l3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <input id="search-input" type="text" placeholder="Buscar evento, ano ou mês..." autocomplete="off" />
+        <kbd class="search-shortcut">/</kbd>
+      </div>
+    </div>
+    <div class="header-right">
+      <div class="month-pills" id="month-pills">
+        <button class="pill active" data-month="1">Jan</button>
+        <button class="pill" data-month="2">Fev</button>
+        <button class="pill" data-month="3">Mar</button>
+        <button class="pill" data-month="4">Abr</button>
+        <button class="pill" data-month="5">Mai</button>
+        <button class="pill" data-month="6">Jun</button>
+        <button class="pill" data-month="7">Jul</button>
+        <button class="pill" data-month="8">Ago</button>
+        <button class="pill" data-month="9">Set</button>
+        <button class="pill" data-month="10">Out</button>
+        <button class="pill" data-month="11">Nov</button>
+        <button class="pill" data-month="12">Dez</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Search overlay -->
+  <div id="search-overlay" class="search-overlay hidden">
+    <div class="search-results-header">
+      <span id="search-count"></span>
+      <button id="close-search" class="close-btn" aria-label="Fechar">
+        <svg viewBox="0 0 20 20" fill="none">
+          <path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+    <div id="search-results" class="search-results-grid"></div>
+  </div>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <span class="eyebrow-dot"></span>
+        Documento Mestre &middot; 366 dias &middot; 1161 eventos
+      </div>
+      <h1 class="hero-title">
+        <span class="hero-line">Cronologia</span>
+        <span class="hero-line italic">da História</span>
+        <span class="hero-line">Humana</span>
+      </h1>
+      <p class="hero-desc">
+        Cada dia do calendário como uma janela para acontecimentos que,
+        somados ao longo de milhares de anos, produziram o mundo que habitamos.
+      </p>
+      <div class="hero-cta">
+        <div class="scroll-indicator"><div class="scroll-dot"></div></div>
+        <span class="scroll-label">Role para começar a jornada</span>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <span class="stat-number">1161</span>
+        <span class="stat-label">eventos históricos</span>
+      </div>
+      <div class="stat-sep"></div>
+      <div class="stat-item">
+        <span class="stat-number">366</span>
+        <span class="stat-label">dias do calendário</span>
+      </div>
+      <div class="stat-sep"></div>
+      <div class="stat-item">
+        <span class="stat-number">+4000</span>
+        <span class="stat-label">anos de história</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline horizontal (pinned) -->
+  <div id="timeline-wrapper">
+    <div id="panels-track">
+      <!-- Gerado via JS -->
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer id="site-footer">
+    <div class="footer-inner">
+      <div class="footer-divider"></div>
+      <blockquote class="footer-quote">
+        "A história humana não aconteceu em capítulos perfeitamente separados.
+        A verdadeira unidade desta cronologia não é o ano — é o processo histórico."
+      </blockquote>
+      <p class="footer-credit">Cronologia da História Humana · Documento-Mestre</p>
+    </div>
+  </footer>
+
+  <!-- Fixed overlays -->
+  <div class="timeline-progress-wrap">
+    <div id="progress-bar" class="progress-bar"></div>
+  </div>
+  <div id="day-indicator"></div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
