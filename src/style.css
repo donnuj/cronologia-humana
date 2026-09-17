@@ -424,6 +424,51 @@ mark {
   border-radius: 20px;
 }
 
+/* ─── SDD Panel ─── */
+.sdd-visual-inner {
+  display: flex; flex-direction: column; align-items: center; gap: 20px;
+}
+
+.sdd-icon {
+  width: 80px; height: 80px;
+  color: rgba(28, 26, 23, 0.35);
+}
+
+.sdd-icon svg { width: 100%; height: 100%; }
+
+.sdd-header {
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: 6px !important;
+  padding-bottom: 20px !important;
+  border-bottom: 1px solid var(--border-strong) !important;
+}
+
+.sdd-label {
+  font-size: 11px; font-weight: 700;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--text-muted);
+  background: rgba(28, 26, 23, 0.07);
+  padding: 3px 10px; border-radius: 4px;
+  display: inline-block;
+}
+
+.sdd-events .event-yr {
+  font-size: 10px !important;
+  background: rgba(139, 107, 58, 0.1) !important;
+  color: var(--accent) !important;
+  padding: 3px 8px !important;
+  border-radius: 3px !important;
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.sdd-index-label {
+  font-style: italic;
+  color: var(--text-muted) !important;
+}
+
 /* ─── Content Side ─── */
 .panel-content {
   background: var(--surface);

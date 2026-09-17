@@ -47,12 +47,12 @@ function getAllDays() {
 
 // ─── Build panel for a day ───
 function buildPanel(dayData, index, total) {
-  // Pick era from the first event year
+  const isSDD = dayData.day === 'SDD'
   const firstYear = dayData.events[0]?.year || '1900'
   const era = getEraColors(firstYear)
 
   const panel = document.createElement('div')
-  panel.className = 'day-panel'
+  panel.className = isSDD ? 'day-panel sdd-panel' : 'day-panel'
   panel.dataset.index = index
   panel.dataset.month = dayData.monthNum
   panel.dataset.day = dayData.day
@@ -60,22 +60,41 @@ function buildPanel(dayData, index, total) {
   // ── Visual side ──
   const visual = document.createElement('div')
   visual.className = 'panel-visual'
-  visual.innerHTML = `
-    <div class="panel-visual-bg" style="--era-c1: ${era.c1}; --era-c2: ${era.c2}; background: linear-gradient(135deg, ${era.c1}, ${era.c2})"></div>
-    <div class="panel-visual-pattern"></div>
-    <div class="panel-visual-inner">
-      <div class="image-placeholder">
-        <svg class="image-ph-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="4" y="8" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.5"/>
-          <circle cx="14" cy="17" r="3" stroke="currentColor" stroke-width="1.5"/>
-          <path d="M4 27l8-7 6 5 5-4 13 10" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-        </svg>
-        <span class="image-ph-text">Espaço para imagem</span>
+
+  if (isSDD) {
+    visual.innerHTML = `
+      <div class="panel-visual-bg" style="background: linear-gradient(135deg, #D8CFC0, #C4B99A)"></div>
+      <div class="panel-visual-pattern"></div>
+      <div class="panel-visual-inner sdd-visual-inner">
+        <div class="sdd-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M24 14v11l7 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M8 8l32 32" stroke="currentColor" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
+          </svg>
+        </div>
+        <div class="deco-year">${dayData.monthLabel}</div>
+        <div class="era-badge">Sem data determinada</div>
       </div>
-      <div class="deco-year">${firstYear}</div>
-      <div class="era-badge">${era.name}</div>
-    </div>
-  `
+    `
+  } else {
+    visual.innerHTML = `
+      <div class="panel-visual-bg" style="--era-c1: ${era.c1}; --era-c2: ${era.c2}; background: linear-gradient(135deg, ${era.c1}, ${era.c2})"></div>
+      <div class="panel-visual-pattern"></div>
+      <div class="panel-visual-inner">
+        <div class="image-placeholder">
+          <svg class="image-ph-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="4" y="8" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="14" cy="17" r="3" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M4 27l8-7 6 5 5-4 13 10" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+          </svg>
+          <span class="image-ph-text">Espaço para imagem</span>
+        </div>
+        <div class="deco-year">${firstYear}</div>
+        <div class="era-badge">${era.name}</div>
+      </div>
+    `
+  }
 
   // ── Content side ──
   const content = document.createElement('div')
@@ -88,21 +107,39 @@ function buildPanel(dayData, index, total) {
     </div>
   `).join('')
 
-  content.innerHTML = `
-    <div class="panel-date-header">
-      <span class="panel-day-num">${dayData.day}</span>
-      <span class="panel-month-name">${dayData.monthLabel}</span>
-      <span class="panel-event-total">${dayData.events.length} evento${dayData.events.length !== 1 ? 's' : ''}</span>
-    </div>
-    <div class="panel-events">${eventsHtml}</div>
-    <div class="panel-index">
-      <span class="panel-index-num">Dia ${String(index + 1).padStart(3, '0')} / ${total}</span>
-      <span class="arrow-hint">
-        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        role para continuar
-      </span>
-    </div>
-  `
+  if (isSDD) {
+    content.innerHTML = `
+      <div class="panel-date-header sdd-header">
+        <span class="sdd-label">Eventos sem data exata</span>
+        <span class="panel-month-name">${dayData.monthLabel}</span>
+        <span class="panel-event-total">${dayData.events.length} registro${dayData.events.length !== 1 ? 's' : ''}</span>
+      </div>
+      <div class="panel-events sdd-events">${eventsHtml}</div>
+      <div class="panel-index">
+        <span class="panel-index-num sdd-index-label">Data incerta · ${dayData.monthLabel}</span>
+        <span class="arrow-hint">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          role para continuar
+        </span>
+      </div>
+    `
+  } else {
+    content.innerHTML = `
+      <div class="panel-date-header">
+        <span class="panel-day-num">${dayData.day}</span>
+        <span class="panel-month-name">${dayData.monthLabel}</span>
+        <span class="panel-event-total">${dayData.events.length} evento${dayData.events.length !== 1 ? 's' : ''}</span>
+      </div>
+      <div class="panel-events">${eventsHtml}</div>
+      <div class="panel-index">
+        <span class="panel-index-num">Dia ${String(index + 1).padStart(3, '0')} / ${total}</span>
+        <span class="arrow-hint">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          role para continuar
+        </span>
+      </div>
+    `
+  }
 
   panel.appendChild(visual)
   panel.appendChild(content)

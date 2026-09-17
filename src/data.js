@@ -81,7 +81,7 @@ export const timelineData = [
           },
           {
             "year": "2015",
-            "text": "entra em vigor o tratado que estabelece a União Econômica Eurasiática. A concentração excepcional de acontecimentos de integração política e transformação institucional nesta data também explica por que 1º de janeiro aparece com frequência como marco histórico em diferentes civilizações."
+            "text": "entra em vigor o tratado que estabelece a União Econômica Eurasiática. A. de integração política e transformação institucional nesta data também explica por que 1º de janeiro aparece com frequência como marco histórico em diferentes civilizações."
           }
         ]
       },
@@ -164,10 +164,6 @@ export const timelineData = [
           {
             "year": "1948",
             "text": "Burma, atual Myanmar, torna-se independente do Reino Unido."
-          },
-          {
-            "year": "1958",
-            "text": "o satélite britânico Ariel 1 é lançado posteriormente como parte do início da pesquisa espacial britânica."
           },
           {
             "year": "1972",
@@ -338,8 +334,8 @@ export const timelineData = [
             "text": "realiza-se a primeira Assembleia Geral das Nações Unidas em Londres."
           },
           {
-            "year": "2001",
-            "text": "a Wikipédia é lançada."
+            "year": "49 a.C.",
+            "text": "Júlio César cruza o rio Rubicão com sua legião, violando a lei romana que proibia generais armados de entrarem na Itália. Ao dizer \"a sorte está lançada\" (alea iacta est), desencadeia a guerra civil romana contra Pompeu e o Senado."
           }
         ]
       },
@@ -350,10 +346,6 @@ export const timelineData = [
           {
             "year": "630",
             "text": "Maomé entra em Meca durante a expansão do Estado islâmico."
-          },
-          {
-            "year": "1759",
-            "text": "o Museu Britânico é aberto ao público."
           },
           {
             "year": "1787",
@@ -374,7 +366,7 @@ export const timelineData = [
         "label": "12 de Janeiro",
         "events": [
           {
-            "year": "1773",
+            "year": "1873",
             "text": "nasce Konstantin von Neurath?"
           },
           {
@@ -410,10 +402,6 @@ export const timelineData = [
           {
             "year": "1968",
             "text": "Johnny Cash realiza o famoso concerto na prisão de Folsom."
-          },
-          {
-            "year": "1985",
-            "text": "ocorre o primeiro concerto Live Aid?"
           }
         ]
       },
@@ -510,6 +498,10 @@ export const timelineData = [
           {
             "year": "1991",
             "text": "começa a Operação Tempestade no Deserto contra o Iraque."
+          },
+          {
+            "year": "395 d.C.",
+            "text": "morte do imperador Teodósio I em Milão. O Império Romano é dividido definitivamente entre seus filhos Honório (Ocidente) e Arcádio (Oriente), encerrando toda perspectiva de reunificação."
           }
         ]
       },
@@ -554,6 +546,10 @@ export const timelineData = [
           {
             "year": "1983",
             "text": "Apple apresenta o computador Lisa."
+          },
+          {
+            "year": "379 d.C.",
+            "text": "Teodósio I é proclamado co-imperador por Graciano em Sirmium, após a catástrofe de Adrianópolis. Seu reinado levará à adoção do cristianismo niceno como religião oficial do Império Romano."
           }
         ]
       },
@@ -654,6 +650,10 @@ export const timelineData = [
           {
             "year": "1960",
             "text": "o batiscafo Trieste alcança o fundo da Fossa das Marianas."
+          },
+          {
+            "year": "1556 d.C.",
+            "text": "o grande terremoto de Shaanxi atinge o noroeste da China durante a dinastia Ming. Estima-se entre 830.000 e 2 milhões de mortos, tornando-o o terremoto mais letal da história humana documentada."
           }
         ]
       },
@@ -762,6 +762,10 @@ export const timelineData = [
           {
             "year": "2010",
             "text": "Steve Jobs apresenta o iPad."
+          },
+          {
+            "year": "98 d.C.",
+            "text": "Trajano torna-se imperador romano após a morte de Nerva. Natural da Hispânia, é o primeiro imperador provincial da história romana. Sob seu comando, o Império Romano atingirá sua máxima extensão territorial."
           }
         ]
       },
@@ -856,6 +860,28 @@ export const timelineData = [
             "text": "os Estados Unidos lançam o Explorer 1, primeiro satélite americano bem-sucedido. FEVEREIRO"
           }
         ]
+      },
+      {
+        "day": "SDD",
+        "label": "Sem data determinada",
+        "events": [
+          {
+            "year": "c. 3100 a.C.",
+            "text": "os tabletes de argila de Uruk, na Suméria, evidenciam o surgimento da escrita cuneiforme — os registros escritos mais antigos conhecidos. Os primeiros textos são registros administrativos de produtos agrícolas, inventários e rações de trabalhadores."
+          },
+          {
+            "year": "c. 3000 a.C.",
+            "text": "surgimento das primeiras cidades-estado sumérias ao longo dos rios Tigre e Eufrates — Ur, Uruk, Lagaš, Nipur, Eriду — com populações de dezenas de milhares, templos-ziguratu, sistemas de irrigação e administração burocrática documentada em tábuas de argila."
+          },
+          {
+            "year": "c. 2334 a.C.",
+            "text": "Sargão de Acádia funda o Império Acadiano, o primeiro império multiétnico da história documentada, unificando as cidades-estado da Mesopotâmia sob um único governante. As inscrições reais documentam campanhas desde o Golfo Pérsico até o Mar Mediterrâneo."
+          },
+          {
+            "year": "c. 2112–2095 a.C.",
+            "text": "reinado de Ur-Namu, rei de Ur, que promulga o Código de Ur-Namu — o conjunto de leis escritas mais antigo conhecido, anterior ao Código de Hamurabi em mais de três séculos. Regula crimes, escravidão, casamento e comércio."
+          }
+        ]
       }
     ]
   },
@@ -900,6 +926,10 @@ export const timelineData = [
           {
             "year": "1990",
             "text": "F. W. de Klerk anuncia o início do processo que levaria ao fim do apartheid."
+          },
+          {
+            "year": "962 d.C.",
+            "text": "Oto I é coroado Sacro Imperador Romano pelo papa João XII em Roma. O ato restabelece o título imperial no Ocidente e funda o Sacro Império Romano-Germânico, que durará até 1806."
           }
         ]
       },
@@ -1048,6 +1078,10 @@ export const timelineData = [
           {
             "year": "1947",
             "text": "Tratados de Paz de Paris reorganizam parte da Europa após a Segunda Guerra Mundial."
+          },
+          {
+            "year": "1258 d.C.",
+            "text": "as forças mongóis de Hulagu Khan destroem Bagdá após sete dias de saque. Al-Musta'sim, último califa abássida, é executado. A destruição da Biblioteca de Bagdá representa uma das maiores perdas intelectuais da Idade Média."
           }
         ]
       },
@@ -1210,6 +1244,10 @@ export const timelineData = [
           {
             "year": "1945",
             "text": "começa a Batalha de Iwo Jima."
+          },
+          {
+            "year": "197 a.C.",
+            "text": "Batalha de Cinoscéfalas: Tito Flaminino derrota Filipe V da Macedônia na Tessália, consolidando o domínio romano sobre a Grécia e encerrando a Segunda Guerra Macedônica."
           }
         ]
       },
@@ -1228,6 +1266,10 @@ export const timelineData = [
           {
             "year": "1962",
             "text": "John Glenn torna-se o primeiro americano a orbitar a Terra."
+          },
+          {
+            "year": "1707 d.C.",
+            "text": "morte do imperador mogol Aurangzeb em Ahmednagar. Seu longo reinado (1658–1707) expandiu o Império Mogol ao máximo, mas suas políticas religiosas restritivas enfraqueceram as alianças com rajputs, maratas e outros povos."
           }
         ]
       },
@@ -1354,6 +1396,10 @@ export const timelineData = [
           {
             "year": "1991",
             "text": "Kuwait é libertado durante a Guerra do Golfo."
+          },
+          {
+            "year": "380 d.C.",
+            "text": "o imperador Teodósio I promulga o Édito de Tessalônica, declarando o cristianismo niceno a religião oficial do Império Romano e tornando hereges os que seguissem outras doutrinas."
           }
         ]
       },
@@ -1386,6 +1432,24 @@ export const timelineData = [
           {
             "year": "1940",
             "text": "Hattie McDaniel torna-se a primeira pessoa negra a receber um Oscar. MARÇO"
+          }
+        ]
+      },
+      {
+        "day": "SDD",
+        "label": "Sem data determinada",
+        "events": [
+          {
+            "year": "c. 2686 a.C.",
+            "text": "início do período do Antigo Reinado egípcio sob Djoser (c. 2667–2648 a.C.) da Terceira Dinastia. O arquiteto Imhotep projeta o Complexo de Djoser em Saqqara com a Pirâmide Degrau — a primeira grande estrutura em pedra da história documentada."
+          },
+          {
+            "year": "c. 1792–1750 a.C.",
+            "text": "reinado de Hamurabi, rei da Babilônia, cujo Código (gravado em estelas de diorito) contém 282 leis sobre comércio, propriedade, família, trabalho e penas. Redescoberto em Susa em 1901, é um dos documentos jurídicos mais importantes da Antiguidade."
+          },
+          {
+            "year": "c. 1550 a.C.",
+            "text": "início do Novo Reinado egípcio com a expulsão dos hicsos por Ahmose I. O período representa o apogeu do poder egípcio, com a construção dos templos de Karnak e Luxor e um império que se estende ao Levante e à Núbia, documentado em papiros e inscrições."
           }
         ]
       }
@@ -1522,6 +1586,10 @@ export const timelineData = [
           {
             "year": "1965",
             "text": "Domingo Sangrento em Selma."
+          },
+          {
+            "year": "321 d.C.",
+            "text": "o imperador Constantino I decreta o domingo como dia de descanso obrigatório no Império Romano, combinando influências cristãs e do culto solar. É a origem legal do domingo como dia de repouso no Ocidente."
           }
         ]
       },
@@ -1562,6 +1630,10 @@ export const timelineData = [
           {
             "year": "1959",
             "text": "boneca Barbie é apresentada."
+          },
+          {
+            "year": "1279 d.C.",
+            "text": "Batalha de Yamen: a frota Song é destruída pelos mongóis na costa de Cantão. O ministro Lu Xiufu lança-se ao mar com o jovem imperador. Fim da dinastia Song e consolidação da dinastia Yuan (mongol) sobre toda a China."
           }
         ]
       },
@@ -1710,6 +1782,10 @@ export const timelineData = [
           {
             "year": "1958",
             "text": "Vanguard 1 é lançado."
+          },
+          {
+            "year": "180 d.C.",
+            "text": "morte do imperador Marco Aurélio em Vindobona (atual Viena), durante campanha contra os marcomanos. Filósofo estoico, autor dos Pensamentos (escritos em grego). Seu reinado é considerado o encerramento da Pax Romana."
           }
         ]
       },
@@ -1760,6 +1836,10 @@ export const timelineData = [
           {
             "year": "2003",
             "text": "ataques iniciais da Guerra do Iraque continuam."
+          },
+          {
+            "year": "235 d.C.",
+            "text": "assassinato do imperador Alexandre Severo por soldados em Moguntiacum (Mainz). Início do período de crise do século III, quando mais de 50 imperadores se sucederão em 50 anos, a maioria assassinados pelas próprias tropas."
           }
         ]
       },
@@ -1854,6 +1934,10 @@ export const timelineData = [
           {
             "year": "1957",
             "text": "Tratados de Roma são assinados."
+          },
+          {
+            "year": "1306 d.C.",
+            "text": "Robert Bruce é coroado rei da Escócia em Scone. Liderará a guerra de independência escocesa culminando na Batalha de Bannockburn (1314) e no reconhecimento formal da independência escocesa em 1328."
           }
         ]
       },
@@ -1942,6 +2026,24 @@ export const timelineData = [
           {
             "year": "1992",
             "text": "fim formal da Guerra Civil em El Salvador após os Acordos de Paz. ABRIL"
+          }
+        ]
+      },
+      {
+        "day": "SDD",
+        "label": "Sem data determinada",
+        "events": [
+          {
+            "year": "c. 2500 a.C.",
+            "text": "florescimento da Civilização do Vale do Indo (cultura Harappana), com cidades planejadas como Mohenjo-daro e Harappa atingindo populações estimadas em 30.000 a 80.000 habitantes. Evidências de sistema de pesos e medidas padronizados, redes de esgoto e arquitetura regular."
+          },
+          {
+            "year": "c. 1046 a.C.",
+            "text": "Batalha de Muye: o rei Wu de Zhou derrota o último rei Shang e funda a Dinastia Zhou. Os Zhou governarão a China por mais de 800 anos — o período mais longo de qualquer dinastia chinesa —, divididos em Zhou Ocidental (até 771 a.C.) e Zhou Oriental."
+          },
+          {
+            "year": "c. 563 a.C.",
+            "text": "nascimento de Sidarta Gautama em Lumbini (atual Nepal), segundo as fontes budistas antigas. As fontes mais antigas situam seu florescimento entre os séculos VI e IV a.C. Após anos de meditação e ascetismo, alcança a iluminação e funda o budismo."
           }
         ]
       }
@@ -2056,6 +2158,10 @@ export const timelineData = [
           {
             "year": "1994",
             "text": "começa o genocídio de Ruanda após o assassinato do presidente Juvénal Habyarimana."
+          },
+          {
+            "year": "1199 d.C.",
+            "text": "morte do rei Ricardo I da Inglaterra (Ricardo Coração de Leão) em Châlus-Chabrol, após ser atingido por uma besta durante o cerco ao castelo. Com 41 anos, seu reinado foi marcado pela Terceira Cruzada."
           }
         ]
       },
@@ -2110,6 +2216,10 @@ export const timelineData = [
           {
             "year": "1942",
             "text": "queda de Bataan e início da Marcha da Morte de Bataan."
+          },
+          {
+            "year": "1241 d.C.",
+            "text": "Batalha de Legnica: o exército mongol de Batu Khan derrota a cavalaria polonesa e teutônica. A morte do grão-cã Ögödei salva a Europa Central, levando à retirada mongol para o leste."
           }
         ]
       },
@@ -2168,6 +2278,10 @@ export const timelineData = [
           {
             "year": "1981",
             "text": "primeiro lançamento do ônibus espacial."
+          },
+          {
+            "year": "1204 d.C.",
+            "text": "os cruzados da Quarta Cruzada saqueiam Constantinopla durante três dias, destruindo e roubando obras de arte, relíquias e manuscritos acumulados por séculos. É estabelecido o Império Latino de Constantinopla."
           }
         ]
       },
@@ -2338,6 +2452,10 @@ export const timelineData = [
           {
             "year": "1960",
             "text": "Brasília é inaugurada como capital do Brasil."
+          },
+          {
+            "year": "753 a.C.",
+            "text": "data tradicional da fundação de Roma por Rômulo, conforme a cronologia estabelecida por Varrão. A evidência arqueológica indica assentamentos no sítio desde o século X a.C., mas 753 a.C. tornou-se referência canônica na tradição romana."
           }
         ]
       },
@@ -2378,6 +2496,10 @@ export const timelineData = [
           {
             "year": "1990",
             "text": "Namíbia ingressa na ONU."
+          },
+          {
+            "year": "1014 d.C.",
+            "text": "Batalha de Clontarf: Brian Boru, Ard Rí da Irlanda, derrota os vikings nórdicos às portas de Dublin. Brian é morto após a batalha. A vitória encerra o poder político viking na Irlanda."
           }
         ]
       },
@@ -2440,6 +2562,10 @@ export const timelineData = [
           {
             "year": "1991",
             "text": "Bangladesh sofre ciclone devastador."
+          },
+          {
+            "year": "1962",
+            "text": "o Ariel 1, primeiro satélite britânico, é lançado do Cabo Canaveral por um foguete Thor Delta americano. Desenvolvido em parceria entre o Reino Unido e os Estados Unidos, é o primeiro satélite internacional da história."
           }
         ]
       },
@@ -2476,6 +2602,10 @@ export const timelineData = [
           {
             "year": "2001",
             "text": "Dennis Tito torna-se o primeiro turista espacial."
+          },
+          {
+            "year": "711 d.C.",
+            "text": "o general berbere Tariq ibn Ziyad desembarca na Península Ibérica na rocha chamada Jabal al-Tariq (Gibraltar). Início da conquista islâmica da Hispânia visigótica, que durará séculos e será conhecida como Al-Andalus."
           }
         ]
       },
@@ -2512,6 +2642,24 @@ export const timelineData = [
           {
             "year": "1975",
             "text": "queda de Saigon. MAIO"
+          }
+        ]
+      },
+      {
+        "day": "SDD",
+        "label": "Sem data determinada",
+        "events": [
+          {
+            "year": "c. 814 a.C.",
+            "text": "fundação de Cartago pelos fenícios de Tiro, segundo as fontes clássicas (Tucídides, Timeu). Escavações arqueológicas do século XX confirmam assentamento fenício no século IX a.C. A cidade-estado norte-africana torna-se uma das maiores potências do Mediterrâneo ocidental."
+          },
+          {
+            "year": "c. 776 a.C.",
+            "text": "primeiros Jogos Olímpicos registrados em Olímpia, na Grécia, segundo os anais antigos. Os jogos são realizados em honra a Zeus e reúnem atletas das diversas póleis gregas. A data baseia-se na lista de vencedores preservada pela tradição."
+          },
+          {
+            "year": "c. 321 a.C.",
+            "text": "Chandragupta Mauria funda o Império Máuria na Índia, aproveitando o vácuo de poder deixado pela retirada de Alexandre. Com o apoio do estrategista Chanakia (Kautilya), unifica grande parte do subcontinente indiano pela primeira vez."
           }
         ]
       }
@@ -2698,6 +2846,10 @@ export const timelineData = [
           {
             "year": "1994",
             "text": "Nelson Mandela toma posse como presidente da África do Sul."
+          },
+          {
+            "year": "1857 d.C.",
+            "text": "início do Levante Indiano (Motim dos Cipaios) em Meerut. Soldados indianos da Companhia Britânica das Índias Orientais se rebelam, desencadeando um levante que levará à dissolução da Companhia e ao domínio direto da Coroa britânica sobre a Índia."
           }
         ]
       },
@@ -2716,6 +2868,10 @@ export const timelineData = [
           {
             "year": "1997",
             "text": "Deep Blue derrota Garry Kasparov."
+          },
+          {
+            "year": "330 d.C.",
+            "text": "o imperador Constantino I inaugura Constantinopla como nova capital do Império Romano, no sítio da antiga colônia grega de Bizâncio, sobre o Bósforo. A cidade será capital do Império Bizantino por mais de mil anos."
           }
         ]
       },
@@ -2852,6 +3008,10 @@ export const timelineData = [
           {
             "year": "1962",
             "text": "Marilyn Monroe canta \"Happy Birthday\" para Kennedy."
+          },
+          {
+            "year": "1536 d.C.",
+            "text": "Ana Bolena, segunda esposa do rei Henrique VIII da Inglaterra, é decapitada na Torre de Londres, acusada de adultério e traição. A acusação é considerada fabricada por historiadores modernos. Sua filha será a rainha Isabel I."
           }
         ]
       },
@@ -2870,6 +3030,10 @@ export const timelineData = [
           {
             "year": "1927",
             "text": "Charles Lindbergh parte para seu voo transatlântico alguns dias depois."
+          },
+          {
+            "year": "325 d.C.",
+            "text": "abertura do Primeiro Concílio de Niceia, convocado pelo imperador Constantino I. Estabelece o Credo Niceno, condena o arianismo e define a data da Páscoa. É o primeiro concílio ecumênico da história cristã."
           }
         ]
       },
@@ -2906,6 +3070,10 @@ export const timelineData = [
           {
             "year": "1960",
             "text": "grande terremoto do Chile."
+          },
+          {
+            "year": "337 d.C.",
+            "text": "morte do imperador Constantino I em Nicomédia. Batizado no leito de morte, é o primeiro imperador cristão de Roma. O Império é dividido entre seus três filhos."
           }
         ]
       },
@@ -2964,6 +3132,10 @@ export const timelineData = [
           {
             "year": "1963",
             "text": "Organização da Unidade Africana é fundada."
+          },
+          {
+            "year": "1085 d.C.",
+            "text": "Afonso VI de Leão e Castela captura Toledo dos mouros, tornando a cidade símbolo da Reconquista ibérica. Toledo, antiga capital visigótica, estava sob domínio islâmico há quase quatro séculos."
           }
         ]
       },
@@ -3072,6 +3244,24 @@ export const timelineData = [
           {
             "year": "1916",
             "text": "começa a Batalha da Jutlândia. JUNHO"
+          }
+        ]
+      },
+      {
+        "day": "SDD",
+        "label": "Sem data determinada",
+        "events": [
+          {
+            "year": "c. 1200 a.C.",
+            "text": "colapso da Idade do Bronze no Mediterrâneo Oriental: em poucas décadas, civilizações micênica, hitita, cipriota e ugarítica colapsam abruptamente. Cartas de argila, registros arqueológicos e evidências de destruições em massa documentam invasões dos Povos do Mar, secas e ruptura das redes comerciais."
+          },
+          {
+            "year": "c. 260 a.C.",
+            "text": "Ashoka Mauria trava a Guerra de Kalinga, resultando em mais de 100.000 mortes e 150.000 deportações, segundo seu próprio Édito XIII. Movido pelo horror, converte-se ao budismo e adota a conquista pela virtude (dharma-vijaya), enviando emissários budistas ao Mediterrâneo e ao Sudeste Asiático."
+          },
+          {
+            "year": "c. 100–940 d.C.",
+            "text": "o Reino de Axum (atual Etiópia e Eritreia) é descrito pelo texto grego Períplo do Mar Eritreu como uma das quatro grandes potências do mundo. Controla o comércio do Mar Vermelho, produz moedas de ouro, prata e bronze e adota o cristianismo no século IV, sendo um dos primeiros estados cristãos documentados."
           }
         ]
       }
@@ -3214,6 +3404,10 @@ export const timelineData = [
           {
             "year": "1949",
             "text": "Nineteen Eighty-Four de George Orwell é publicado."
+          },
+          {
+            "year": "632 d.C.",
+            "text": "morte do profeta Maomé em Medina, após breve doença. Sua morte sem um sucessor designado desencadeia uma crise que levará à divisão entre sunitas e xiitas e ao estabelecimento do califado."
           }
         ]
       },
@@ -3250,6 +3444,10 @@ export const timelineData = [
           {
             "year": "1944",
             "text": "massacre de Oradour-sur-Glane."
+          },
+          {
+            "year": "323 a.C.",
+            "text": "morte de Alexandre III da Macedônia (Alexandre, o Grande) no palácio de Nabucodonosor II, em Babilônia, com 32 anos. Sem herdeiro nomeado, seu vasto império é disputado pelos generais Diádocos e fragmentado em reinos helenísticos."
           }
         ]
       },
@@ -3304,6 +3502,10 @@ export const timelineData = [
           {
             "year": "1983",
             "text": "Pioneer 10 torna-se primeiro objeto humano a atravessar órbita de Netuno."
+          },
+          {
+            "year": "624 d.C.",
+            "text": "Batalha de Badr: as forças muçulmanas de Maomé derrotam uma caravana armada dos quraixitas de Meca. Primeira grande vitória militar do islã, com 314 muçulmanos enfrentando um exército maior. Considerada pelos muçulmanos sinal da aprovação divina."
           }
         ]
       },
@@ -3340,6 +3542,10 @@ export const timelineData = [
           {
             "year": "1991",
             "text": "Monte Pinatubo entra em erupção."
+          },
+          {
+            "year": "1389 d.C.",
+            "text": "Batalha do Kosovo: as forças otomanas do sultão Murade I derrotam os exércitos sérvios e seus aliados balcânicos. O sultão é assassinado após a batalha. A derrota marca o início da dominação otomana nos Bálcãs, que durará até o século XX."
           }
         ]
       },
@@ -3376,6 +3582,10 @@ export const timelineData = [
           {
             "year": "1994",
             "text": "O. J. Simpson inicia fuga em Ford Bronco."
+          },
+          {
+            "year": "1674 d.C.",
+            "text": "Shivaji Bhosle é coroado Chhatrapati do Império Marata em Raigad, na Índia. Fundador do Estado Marata independente, resistiu ao domínio mogol e criou a estrutura que se tornará a principal força da Índia pré-colonial."
           }
         ]
       },
@@ -3444,6 +3654,10 @@ export const timelineData = [
           {
             "year": "1982",
             "text": "príncipe William nasce."
+          },
+          {
+            "year": "217 a.C.",
+            "text": "Batalha do Lago Trasimeno: Aníbal Barca conduz os cartagineses a uma emboscada devastadora contra as legiões romanas do cônsul Caio Flamínio. Flamínio morre; cerca de 30.000 romanos são mortos ou capturados em uma das maiores derrotas da história romana."
           }
         ]
       },
@@ -3462,6 +3676,10 @@ export const timelineData = [
           {
             "year": "1965",
             "text": "EUA e Vietnã intensificam guerra."
+          },
+          {
+            "year": "168 a.C.",
+            "text": "Batalha de Pidna: Lúcio Emílio Paulo derrota Perseu da Macedônia, último rei da dinastia Antigônida. A Macedônia torna-se província romana. A batalha demonstra a superioridade da legião romana flexível sobre a falange macedônica rígida."
           }
         ]
       },
@@ -3480,6 +3698,10 @@ export const timelineData = [
           {
             "year": "2016",
             "text": "Reino Unido realiza referendo sobre permanência na União Europeia."
+          },
+          {
+            "year": "1757 d.C.",
+            "text": "Batalha de Plassey: as forças da Companhia Britânica das Índias Orientais, sob Robert Clive, derrotam o Nawab de Bengala Siraj ud-Daulah. A vitória marca o início do domínio colonial britânico na Índia."
           }
         ]
       },
@@ -3592,6 +3814,10 @@ export const timelineData = [
           {
             "year": "2007",
             "text": "iPhone começa a ser vendido nos EUA."
+          },
+          {
+            "year": "1444 d.C.",
+            "text": "Batalha de Torvioll: Skanderbeg (Jorge Castriota) derrota o exército otomano na Albânia em sua primeira grande vitória. Resistirá ao avanço otomano nos Bálcãs por décadas, sendo chamado de Campeão da Cristandade pelo papa."
           }
         ]
       },
@@ -3610,6 +3836,24 @@ export const timelineData = [
           {
             "year": "1997",
             "text": "Reino Unido devolve Hong Kong à China. JULHO"
+          }
+        ]
+      },
+      {
+        "day": "SDD",
+        "label": "Sem data determinada",
+        "events": [
+          {
+            "year": "c. 3000–2500 a.C.",
+            "text": "período de construção dos principais monumentos de Stonehenge, na atual Inglaterra, com base em datações por radiocarbono. O sítio megalítico foi construído em fases ao longo de mais de mil anos, envolvendo transporte de pedras de até 25 toneladas por centenas de quilômetros. Sua função exata é debatida."
+          },
+          {
+            "year": "c. 551 a.C.",
+            "text": "nascimento de Confúcio (Kong Qiu) no estado de Lu, na China. Filósofo e educador, suas ideias sobre ética, governo e relações sociais — registradas nos Analectos por seus discípulos — moldarão a civilização chinesa por mais de dois milênios."
+          },
+          {
+            "year": "c. 508 a.C.",
+            "text": "reformas de Clístenes em Atenas reorganizam os cidadãos em tribos territoriais (demos), enfraquecendo as oligarquias gentílicas. As reformas, documentadas por Aristóteles e outros, ampliam a participação política e são consideradas a base da democracia ateniense."
           }
         ]
       }
@@ -3692,6 +3936,10 @@ export const timelineData = [
           {
             "year": "1997",
             "text": "Mars Pathfinder pousa em Marte."
+          },
+          {
+            "year": "1187 d.C.",
+            "text": "Batalha de Hatim: Saladino derrota o Exército do Reino de Jerusalém, capturando o rei Guido de Lusignan e executando Reinaldo de Châtillon. A derrota abre caminho para a reconquista islâmica de Jerusalém, capturada meses depois."
           }
         ]
       },
@@ -3842,6 +4090,10 @@ export const timelineData = [
           {
             "year": "1985",
             "text": "grande marco da história dos concertos globais beneficentes."
+          },
+          {
+            "year": "1985",
+            "text": "o Live Aid, concerto beneficente organizado por Bob Geldof e Midge Ure, ocorre simultaneamente no Estádio de Wembley, em Londres, e no JFK Stadium, em Filadélfia. Arrecada mais de 100 milhões de dólares para vítimas da fome na Etiópia."
           }
         ]
       },
@@ -3878,6 +4130,10 @@ export const timelineData = [
           {
             "year": "1979",
             "text": "Jimmy Carter profere discurso conhecido como \"malaise\"."
+          },
+          {
+            "year": "1099 d.C.",
+            "text": "os cruzados da Primeira Cruzada capturam Jerusalém após cerco de cinco semanas. Os cronistas descrevem o massacre subsequente da população muçulmana e judaica da cidade. O evento é um marco fundador da história das Cruzadas."
           }
         ]
       },
@@ -3896,6 +4152,10 @@ export const timelineData = [
           {
             "year": "1969",
             "text": "Apollo 11 é lançado."
+          },
+          {
+            "year": "622 d.C.",
+            "text": "data tradicional do início do calendário islâmico, correspondente à Hégira — a migração do profeta Maomé de Meca para Medina. O calendário islâmico lunar conta os anos a partir deste evento."
           }
         ]
       },
@@ -4058,6 +4318,10 @@ export const timelineData = [
           {
             "year": "1978",
             "text": "nasce Louise Brown, primeiro bebê concebido por fertilização in vitro."
+          },
+          {
+            "year": "306 d.C.",
+            "text": "Constantino I é proclamado imperador pelos soldados romanos em Eboracum (atual York, Inglaterra), após a morte de seu pai Constâncio Cloro. Início do ascenso de Constantino ao controle do Império Romano."
           }
         ]
       },
@@ -4076,6 +4340,10 @@ export const timelineData = [
           {
             "year": "1963",
             "text": "terremoto de Skopje."
+          },
+          {
+            "year": "657 d.C.",
+            "text": "Batalha de Siffin: o califa Ali ibn Abi Talib enfrenta Muawiyah ibn Abi Sufyan numa batalha que termina em arbitragem controversa. O conflito aprofunda a divisão entre sunitas e xiitas — a maior cisão interna do islã."
           }
         ]
       },
@@ -4126,6 +4394,10 @@ export const timelineData = [
           {
             "year": "1981",
             "text": "casamento de Charles e Diana."
+          },
+          {
+            "year": "1588 d.C.",
+            "text": "a Armada Espanhola é derrotada pela frota inglesa na Batalha de Gravelines. Enviada por Filipe II para invadir a Inglaterra, a Armada perde dezenas de navios em combate e nas tempestades subsequentes."
           }
         ]
       },
@@ -4162,6 +4434,24 @@ export const timelineData = [
           {
             "year": "1971",
             "text": "Apollo 15 pousa na Lua. AGOSTO"
+          }
+        ]
+      },
+      {
+        "day": "SDD",
+        "label": "Sem data determinada",
+        "events": [
+          {
+            "year": "c. 105 d.C.",
+            "text": "Cai Lun, eunuco da corte Han, aprimora o processo de fabricação do papel usando casca de árvore, cânhamo, trapos e redes de pesca. O papel de Cai Lun substitui progressivamente o bambu e a seda e se espalhará pelo mundo islâmico (século VIII) e pela Europa (século XII)."
+          },
+          {
+            "year": "c. 750 d.C.",
+            "text": "fundação do Califado Abássida após a Revolução Abássida, que derruba a dinastia omíada. Com capital em Bagdá (fundada em 762 d.C.), o califado patrocinará a tradução de obras gregas, persas e indianas para o árabe, inaugurando a Idade de Ouro islâmica das ciências e da filosofia."
+          },
+          {
+            "year": "c. 1230 d.C.",
+            "text": "Sundiata Keita funda o Império do Mali após derrotar Sumanguru Kanté do Império de Gana na Batalha de Kirina. O Mali controlará as rotas comerciais transaarianas de ouro e sal, tornando-se um dos impérios mais ricos e extensos da África medieval."
           }
         ]
       }
@@ -4204,6 +4494,10 @@ export const timelineData = [
           {
             "year": "1990",
             "text": "Iraque invade Kuwait."
+          },
+          {
+            "year": "216 a.C.",
+            "text": "Batalha de Canas: Aníbal Barca derrota as legiões romanas na Apúlia. Cerca de 50.000 a 70.000 romanos morrem em poucas horas, em uma manobra de cerco estudada até hoje em academias militares."
           }
         ]
       },
@@ -4304,6 +4598,10 @@ export const timelineData = [
           {
             "year": "1974",
             "text": "Nixon anuncia renúncia iminente."
+          },
+          {
+            "year": "1576 d.C.",
+            "text": "Tycho Brahe inicia a construção do observatório Uraniborg na ilha de Hven, na Dinamarca. Suas observações astronômicas, as mais precisas do período pré-telescópio, serão usadas por Kepler para formular as leis do movimento planetário."
           }
         ]
       },
@@ -4336,6 +4634,10 @@ export const timelineData = [
           {
             "year": "1945",
             "text": "Japão comunica intenção de rendição."
+          },
+          {
+            "year": "612 a.C.",
+            "text": "Queda de Nínive: forças babilônicas e medas destroem a capital do Império Neoassírio após cerco de três meses. Fim definitivo do Império Assírio, que havia dominado o Oriente Próximo por séculos. A cidade nunca é reconstruída."
           }
         ]
       },
@@ -4510,6 +4812,10 @@ export const timelineData = [
           {
             "year": "1991",
             "text": "golpe fracassado contra Gorbachev começa na União Soviética."
+          },
+          {
+            "year": "480 a.C.",
+            "text": "início da Batalha das Termópilas: o rei espartano Leônidas I comanda uma força de c. 7.000 soldados gregos contra o exército persa de Xerxes I. O desfiladeiro estreito neutraliza a superioridade numérica persa durante três dias."
           }
         ]
       },
@@ -4546,6 +4852,10 @@ export const timelineData = [
           {
             "year": "1983",
             "text": "Benigno Aquino Jr. é assassinado."
+          },
+          {
+            "year": "480 a.C.",
+            "text": "fim da Batalha das Termópilas: após um traidor revelar um caminho alternativo, Leônidas permanece com 300 espartanos, 700 tespios e outros. Todos morrem combatendo o exército persa. O episódio torna-se símbolo permanente de resistência."
           }
         ]
       },
@@ -4608,6 +4918,10 @@ export const timelineData = [
           {
             "year": "1991",
             "text": "Ucrânia declara independência."
+          },
+          {
+            "year": "410 d.C.",
+            "text": "os visigodos do rei Alarico I saqueiam Roma durante três dias — o primeiro saque em 800 anos. O evento leva Agostinho de Hipona a escrever 'A Cidade de Deus', obra fundadora da teologia política medieval."
           }
         ]
       },
@@ -4644,6 +4958,10 @@ export const timelineData = [
           {
             "year": "1968",
             "text": "Convenção Democrata de Chicago começa."
+          },
+          {
+            "year": "1071 d.C.",
+            "text": "Batalha de Manziquerta: forças seljúcidas de Alp Arslan derrotam e capturam o imperador bizantino Romano IV Diógenes na Anatólia. A derrota abre a Anatólia à colonização turca e altera decisivamente o equilíbrio de poder no Oriente Próximo."
           }
         ]
       },
@@ -4662,6 +4980,10 @@ export const timelineData = [
           {
             "year": "1962",
             "text": "Mariner 2 é lançado."
+          },
+          {
+            "year": "479 a.C.",
+            "text": "Batalha de Plateia: forças gregas aliadas, sob o espartano Pausânias, derrotam o exército persa de Mardônio, que morre no combate. A vitória encerra definitivamente as invasões persas da Grécia."
           }
         ]
       },
@@ -4736,6 +5058,24 @@ export const timelineData = [
             "text": "Diana, princesa de Gales, morre em acidente de carro. SETEMBRO"
           }
         ]
+      },
+      {
+        "day": "SDD",
+        "label": "Sem data determinada",
+        "events": [
+          {
+            "year": "c. 221 a.C.",
+            "text": "Qin Shi Huang unifica os Sete Reinos Combatentes e torna-se o primeiro imperador da China unificada. Padroniza pesos, medidas, escrita e moeda em todo o território. Inicia a construção de uma muralha de defesa no norte e manda construir um exército funerário de terracota."
+          },
+          {
+            "year": "c. 300 a.C.",
+            "text": "fundação de Alexandria do Egito por Alexandre, o Grande. Sob os Ptolomeus, a cidade torna-se o maior centro intelectual do mundo antigo, com a Biblioteca de Alexandria e o Museu (Mouseion), que reúnem estudiosos de todo o Mediterrâneo."
+          },
+          {
+            "year": "c. 624 d.C.",
+            "text": "Maomé proclama a Constituição de Medina (Sahifa al-Medina), documento que estabelece uma federação entre tribos muçulmanas, judaicas e pagãs de Medina sob sua liderança política. Considerado um dos primeiros documentos constitucionais da história, regula relações entre grupos de diferentes religiões."
+          }
+        ]
       }
     ]
   },
@@ -4776,6 +5116,10 @@ export const timelineData = [
           {
             "year": "1945",
             "text": "Japão assina rendição formal, encerrando a Segunda Guerra Mundial."
+          },
+          {
+            "year": "31 a.C.",
+            "text": "Batalha do Ácio: a frota de Otávio derrota a de Marco Antônio e Cleópatra VII no Golfo de Ambrácia. Antônio e Cleópatra fogem para o Egito, onde se suicidarão. A vitória consolida o poder de Otávio, futuro imperador Augusto."
           }
         ]
       },
@@ -4794,6 +5138,10 @@ export const timelineData = [
           {
             "year": "1976",
             "text": "Viking 2 pousa em Marte."
+          },
+          {
+            "year": "1260 d.C.",
+            "text": "Batalha de Ain Jalut: forças mamelukas do Egito, lideradas pelo sultão Qutuz e o general Baibars, derrotam o exército mongol no norte da Palestina. Primeira derrota decisiva dos mongóis em campo aberto, interrompendo seu avanço para a África."
           }
         ]
       },
@@ -4812,6 +5160,10 @@ export const timelineData = [
           {
             "year": "1998",
             "text": "Google é fundado."
+          },
+          {
+            "year": "476 d.C.",
+            "text": "o general germânico Odoacro depõe Rômulo Augústulo, último imperador romano do Ocidente, em Ravena. A data marca convencionalmente o fim do Império Romano do Ocidente e o início da Idade Média na historiografia tradicional."
           }
         ]
       },
@@ -4934,6 +5286,10 @@ export const timelineData = [
           {
             "year": "2001",
             "text": "atentados de 11 de setembro nos Estados Unidos."
+          },
+          {
+            "year": "1683 d.C.",
+            "text": "Batalha de Viena: forças polonesas e austro-húngaras sob o rei João III Sobieski derrotam o exército otomano que havia sitiado a cidade por dois meses. A derrota marca o início do recuo otomano na Europa Central."
           }
         ]
       },
@@ -4952,6 +5308,10 @@ export const timelineData = [
           {
             "year": "1958",
             "text": "Jack Kilby demonstra circuito integrado."
+          },
+          {
+            "year": "490 a.C.",
+            "text": "Batalha de Maratona: o exército ateniense de Milcíades derrota a força persa enviada por Dario I na planície de Maratona, na Ática. A vitória inesperada em inferioridade numérica consolida a resistência grega e se tornará símbolo de coragem cívica."
           }
         ]
       },
@@ -5096,6 +5456,10 @@ export const timelineData = [
           {
             "year": "1970",
             "text": "primeiro pouso lunar automático soviético?"
+          },
+          {
+            "year": "732 d.C.",
+            "text": "Batalha de Tours: Carlos Martel derrota o exército omíada de Abd al-Rahman al-Ghafiqi, que havia cruzado os Pireneus. A vitória contém a expansão islâmica na Europa Ocidental e eleva Carlos Martel à condição de ancestral da linhagem carolíngia."
           }
         ]
       },
@@ -5200,6 +5564,10 @@ export const timelineData = [
           {
             "year": "1983",
             "text": "Stanislav Petrov evita falsa reação soviética a alerta nuclear."
+          },
+          {
+            "year": "480 a.C.",
+            "text": "Batalha de Salamina: a frota grega, sob estratégia de Temístocles, derrota a frota persa de Xerxes I no estreito de Salamina. A derrota naval isola o exército persa e obriga Xerxes a recuar para a Pérsia com grande parte de suas forças."
           }
         ]
       },
@@ -5270,6 +5638,24 @@ export const timelineData = [
             "text": "terremoto no Paquistão?  OUTUBRO"
           }
         ]
+      },
+      {
+        "day": "SDD",
+        "label": "Sem data determinada",
+        "events": [
+          {
+            "year": "c. 800 a.C.",
+            "text": "composição dos poemas homéricos Ilíada e Odisseia, segundo datações acadêmicas predominantes, embora o debate sobre a historicidade de Homero permaneça aberto. São as obras literárias fundadoras da tradição ocidental e preservam memórias de eventos do período micênico."
+          },
+          {
+            "year": "c. 202 a.C.",
+            "text": "Liu Bang funda a Dinastia Han após derrotar o rival Xiang Yu na Batalha de Gaixia. O Império Han, que durará mais de 400 anos (dividido em Han Ocidental e Oriental), estabelece o modelo de estado burocrático confuciano que influenciará a China por milênios e dá nome ao povo han."
+          },
+          {
+            "year": "1324 d.C.",
+            "text": "Mansa Musa, imperador do Mali, parte em peregrinação (hajj) a Meca com comitiva de 60.000 pessoas e toneladas de ouro. Sua passagem pelo Cairo deprecia o ouro no mercado regional por mais de uma década. O evento insere a África Ocidental nos mapas europeus e demonstra a riqueza do Império do Mali."
+          }
+        ]
       }
     ]
   },
@@ -5292,6 +5678,10 @@ export const timelineData = [
           {
             "year": "1960",
             "text": "Nigéria torna-se independente."
+          },
+          {
+            "year": "331 a.C.",
+            "text": "Batalha de Gaugamela: Alexandre III da Macedônia derrota Dario III na Mesopotâmia. A vitória abre caminho para a conquista de Babilônia, Susa e Persépolis e o colapso do Império Aquemênida, o maior império da história até então."
           }
         ]
       },
@@ -5392,6 +5782,10 @@ export const timelineData = [
           {
             "year": "2001",
             "text": "EUA iniciam operações militares no Afeganistão."
+          },
+          {
+            "year": "1571 d.C.",
+            "text": "Batalha de Lepanto: a frota da Liga Santa derrota a frota otomana no Golfo de Patras. Maior batalha naval do século XVI. Marca o fim da expansão naval otomana no Mediterrâneo ocidental e é celebrada em toda a Europa cristã."
           }
         ]
       },
@@ -5470,6 +5864,10 @@ export const timelineData = [
           {
             "year": "1964",
             "text": "União Soviética lança Voskhod 1."
+          },
+          {
+            "year": "539 a.C.",
+            "text": "Ciro II (o Grande) entra em Babilônia sem resistência após a derrota do rei Nabônido em Opis. O Cilindro de Ciro, inscrito após a conquista, descreve política de tolerância religiosa e respeito aos cultos locais. Fim do Império Neobabilônico."
           }
         ]
       },
@@ -5692,6 +6090,10 @@ export const timelineData = [
           {
             "year": "1971",
             "text": "República Popular da China assume assento chinês na ONU."
+          },
+          {
+            "year": "1415 d.C.",
+            "text": "Batalha de Agincourt: as forças inglesas de Henrique V derrotam o exército francês em inferioridade numérica, na Guerra dos Cem Anos. Os arqueiros ingleses com arcos longos destroem a cavalaria pesada francesa."
           }
         ]
       },
@@ -5738,6 +6140,10 @@ export const timelineData = [
           {
             "year": "1965",
             "text": "Vaticano II aprova declaração Nostra Aetate ."
+          },
+          {
+            "year": "312 d.C.",
+            "text": "Batalha da Ponte Mílvio: Constantino I derrota Maxêncio, que morre no Tibre. Constantino atribui a vitória a um sinal cristão visto antes da batalha. O evento precede o Édito de Milão, que garante tolerância ao cristianismo."
           }
         ]
       },
@@ -5792,6 +6198,24 @@ export const timelineData = [
           {
             "year": "1984",
             "text": "Indira Gandhi é assassinada. NOVEMBRO"
+          }
+        ]
+      },
+      {
+        "day": "SDD",
+        "label": "Sem data determinada",
+        "events": [
+          {
+            "year": "c. 1200–400 a.C.",
+            "text": "período de florescimento da civilização olmeca na costa do Golfo do México, com centros como San Lorenzo, La Venta e Tres Zapotes. Os olmecas desenvolvem um calendário, monumentos colossos de basalto e redes comerciais que alcançam toda a Mesoamérica, exercendo influência sobre civilizações posteriores como a maia."
+          },
+          {
+            "year": "c. 250–900 d.C.",
+            "text": "período clássico das civilizações maias, com grandes centros como Tikal, Palenque, Copán e Calakmul. O corpus epigráfico maia — com mais de 15.000 inscrições em estelas, escadarias e códices — é o mais extenso de qualquer civilização pré-colombiana, documentando guerras, alianças, ritos e genealogias reais."
+          },
+          {
+            "year": "c. 1438–1533 d.C.",
+            "text": "expansão máxima do Império Inca (Tawantinsuyu) sob os sápas incas Pachacútec, Túpac Inca Yupanqui e Huayna Cápac. Sem escrita alfabética, administra seu território através de quipus (registros em nós de cordão) e um sistema de estradas de 40.000 km que integra os Andes e a costa do Pacífico."
           }
         ]
       }
@@ -5922,6 +6346,10 @@ export const timelineData = [
           {
             "year": "1960",
             "text": "John F. Kennedy é eleito presidente."
+          },
+          {
+            "year": "1519 d.C.",
+            "text": "Hernán Cortés e seu exército entram em Tenochtitlan, capital do Império Mexica, recebidos pelo imperador Montezuma II. A cidade, construída sobre um lago e ligada ao continente por calçadas, impressiona os europeus por sua grandeza e organização."
           }
         ]
       },
@@ -6026,6 +6454,10 @@ export const timelineData = [
           {
             "year": "1969",
             "text": "Apollo 12 é lançado."
+          },
+          {
+            "year": "1556 d.C.",
+            "text": "Segunda Batalha de Panipat: as forças do imperador mogol Akbar derrotam o general hindu Hemu, que havia tomado Déli. A vitória consolida o controle mogol sobre o norte da Índia e abre o longo reinado de Akbar, um dos mais tolerantes governantes da história indiana."
           }
         ]
       },
@@ -6062,6 +6494,10 @@ export const timelineData = [
           {
             "year": "1974",
             "text": "mensagem de Arecibo é transmitida."
+          },
+          {
+            "year": "1532 d.C.",
+            "text": "Francisco Pizarro captura o inca Atahualpa na Batalha de Cajamarca, no Peru, com apenas 168 espanhóis. O imperador é mantido como refém em troca de um resgate de ouro e prata — o maior pagamento de resgate individual da história."
           }
         ]
       },
@@ -6220,6 +6656,10 @@ export const timelineData = [
           {
             "year": "1975",
             "text": "Suriname torna-se independente."
+          },
+          {
+            "year": "1177 d.C.",
+            "text": "Batalha de Montgisard: Balduíno IV de Jerusalém, portador de lepra e com 16 anos, lidera cavaleiros templários e derrota o exército de Saladino em inferioridade numérica. Considerada um dos feitos militares mais notáveis das Cruzadas."
           }
         ]
       },
@@ -6256,6 +6696,10 @@ export const timelineData = [
           {
             "year": "1978",
             "text": "Harvey Milk é assassinado."
+          },
+          {
+            "year": "1095 d.C.",
+            "text": "o papa Urbano II proclama a Primeira Cruzada no Concílio de Clermont, na França, exortando os cristãos a libertarem Jerusalém do domínio seldjúcida. O chamado desencadeia o movimento das Cruzadas, que moldará as relações entre o Ocidente e o Islã por séculos."
           }
         ]
       },
@@ -6308,6 +6752,24 @@ export const timelineData = [
             "text": "Michael Jackson lança Thriller . DEZEMBRO"
           }
         ]
+      },
+      {
+        "day": "SDD",
+        "label": "Sem data determinada",
+        "events": [
+          {
+            "year": "c. 250.000 a.C.",
+            "text": "evidências arqueológicas do uso controlado do fogo por hominídeos em Beeches Pit (Inglaterra) e Qesem Cave (Israel). O uso do fogo, que pode remontar a 1 milhão de anos em sítios africanos (Wonderwerk Cave), transforma a alimentação, o aquecimento e a sociabilidade dos hominídeos."
+          },
+          {
+            "year": "c. 40.000 a.C.",
+            "text": "arte rupestre e esculturas em osso e marfim encontradas em cavernas da Europa (Chauvet, Altamira, Lascaux) e da África do Sul (Blombos Cave). As pinturas rupestres de Sulawesi, Indonésia, datadas de c. 45.000 a.C., são atualmente as mais antigas conhecidas. Evidenciam capacidade simbólica plena do Homo sapiens."
+          },
+          {
+            "year": "c. 10.000 a.C.",
+            "text": "início da Revolução Neolítica no Crescente Fértil (atual Iraque, Síria, Turquia e Levante): primeiras evidências documentadas de agricultura sistemática (trigo, cevada), domesticação de animais (cabras, ovelhas) e assentamentos permanentes como Jericó, um dos sítios habitados contínuos mais antigos do mundo."
+          }
+        ]
       }
     ]
   },
@@ -6356,6 +6818,10 @@ export const timelineData = [
           {
             "year": "1971",
             "text": "Emirados Árabes Unidos são formados."
+          },
+          {
+            "year": "1804 d.C.",
+            "text": "Napoleão Bonaparte se autocorooa imperador dos franceses na Catedral de Notre-Dame, em Paris. Ao contrário do protocolo, toma a coroa das mãos do papa Pio VII e a coloca sobre a própria cabeça, simbolizando independência da Igreja."
           }
         ]
       },
@@ -6778,6 +7244,10 @@ export const timelineData = [
           {
             "year": "1991",
             "text": "Mikhail Gorbachev renuncia à presidência da União Soviética."
+          },
+          {
+            "year": "800 d.C.",
+            "text": "o papa Leão III coroa Carlos Magno como Imperador dos Romanos na Basílica de São Pedro, em Roma, na noite de Natal. O ato restaura o título imperial no Ocidente e funda uma aliança Igreja-Estado que moldará a Europa medieval."
           }
         ]
       },
@@ -6906,6 +7376,24 @@ export const timelineData = [
           {
             "year": "2004",
             "text": "países atingidos pelo tsunami do Oceano Índico ainda enfrentam uma das maiores crises humanitárias do início do século XXI."
+          }
+        ]
+      },
+      {
+        "day": "SDD",
+        "label": "Sem data determinada",
+        "events": [
+          {
+            "year": "c. 1469–1492 d.C.",
+            "text": "reinado de Sunni Ali, primeiro grande imperador do Songai, que transforma o Songai na potência dominante da África Ocidental. Captura Timbuktu (1468) e Djenné (1473), controlando as rotas comerciais de ouro e sal transaariano. Documentado por cronistas como Ibn Khaldun e Al-Sadi."
+          },
+          {
+            "year": "c. 868 d.C.",
+            "text": "produção do Sutra do Diamante, o livro impresso datado mais antigo do mundo, produzido por Wang Jie na China durante a Dinastia Tang usando a técnica de impressão em blocos de madeira. Encontrado em Dunhuang em 1900 e atualmente no British Museum."
+          },
+          {
+            "year": "c. 1347–1353 d.C.",
+            "text": "a Peste Negra (Yersinia pestis) varre a Europa, Oriente Médio e Ásia Central, matando entre um terço e metade da população europeia. Documentada em crônicas, cartas notariais e registros paroquiais, transforma a sociedade medieval: escassez de mão de obra, crise da Igreja e novas relações econômicas."
           }
         ]
       }
