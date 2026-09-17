@@ -19,19 +19,19 @@ function getEraColors(yearStr) {
   const num = parseInt(yearStr.replace(/[^\d]/g, '')) || 0
   const year = isBC ? -num : num
 
-  if (year < -800)  return { c1: '#3D2B1F', c2: '#1F1208', name: 'Pré-História' }
-  if (year < 0)     return { c1: '#1E2D5A', c2: '#0D1630', name: 'Antiguidade' }
-  if (year < 500)   return { c1: '#2A1F4E', c2: '#140F2A', name: 'Antiguidade Clássica' }
-  if (year < 1000)  return { c1: '#1A2E20', c2: '#0D1710', name: 'Alta Idade Média' }
-  if (year < 1400)  return { c1: '#2E2414', c2: '#17110A', name: 'Idade Média' }
-  if (year < 1600)  return { c1: '#5C2E14', c2: '#2D160A', name: 'Renascimento' }
-  if (year < 1750)  return { c1: '#1A3A4A', c2: '#0D1E26', name: 'Era Moderna' }
-  if (year < 1870)  return { c1: '#2E2A1A', c2: '#17140D', name: 'Século XVIII–XIX' }
-  if (year < 1914)  return { c1: '#1A2E3A', c2: '#0D161D', name: 'Belle Époque' }
-  if (year < 1945)  return { c1: '#1F1F1F', c2: '#0A0A0A', name: 'Guerras Mundiais' }
-  if (year < 1970)  return { c1: '#1A1F3A', c2: '#0D1020', name: 'Pós-Guerra' }
-  if (year < 2000)  return { c1: '#1A2E2E', c2: '#0D1717', name: 'Guerra Fria' }
-  return              { c1: '#1A1A2E', c2: '#0D0D18', name: 'Século XXI' }
+  if (year < -800)  return { c1: '#E8D5A8', c2: '#D4BC88', name: 'Pré-História' }
+  if (year < 0)     return { c1: '#C4D8EC', c2: '#A8C4DC', name: 'Antiguidade' }
+  if (year < 500)   return { c1: '#EAE0C8', c2: '#D8CCA8', name: 'Antiguidade Clássica' }
+  if (year < 1000)  return { c1: '#C8DCC8', c2: '#A8C8A8', name: 'Alta Idade Média' }
+  if (year < 1400)  return { c1: '#E2D8C4', c2: '#CCBFA4', name: 'Idade Média' }
+  if (year < 1600)  return { c1: '#F0DEC0', c2: '#DECA9C', name: 'Renascimento' }
+  if (year < 1750)  return { c1: '#BED8EC', c2: '#A0C4DC', name: 'Era Moderna' }
+  if (year < 1870)  return { c1: '#E4DCCC', c2: '#CCCAB0', name: 'Século XVIII–XIX' }
+  if (year < 1914)  return { c1: '#ECD8E4', c2: '#D8C0D0', name: 'Belle Époque' }
+  if (year < 1945)  return { c1: '#D8D4D0', c2: '#C0BCB8', name: 'Guerras Mundiais' }
+  if (year < 1970)  return { c1: '#C4D8E8', c2: '#A8C8DC', name: 'Pós-Guerra' }
+  if (year < 2000)  return { c1: '#C8D4DC', c2: '#B0C0CC', name: 'Guerra Fria' }
+  return              { c1: '#D4E4F0', c2: '#BCD0E4', name: 'Século XXI' }
 }
 
 // ─── Flatten all days ───
